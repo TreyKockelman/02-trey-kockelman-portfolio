@@ -1,9 +1,18 @@
 * {
+  margin: 0;
+  padding: 0;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 header {
-  background-color: lightgrey
+  background-color: lightgrey;
+  width: auto;
+  border-bottom: 5px solid black;
+}
+
+nav {
+  padding: 5px;
+  text-align: right;
 }
 
 li {
