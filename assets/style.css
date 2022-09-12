@@ -29,10 +29,14 @@ footer {
   border-top: 5px solid black;
 }
 
+footer h2 {
+ display: inline;
+ line-height: auto;
+}
 
 /* class styling */
 
 .logo {
-  width: 40px;
+  width: 35px;
   padding-left: 10px;
 }
