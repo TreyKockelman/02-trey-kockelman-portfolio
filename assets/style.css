@@ -1,8 +1,12 @@
+/* global styling */
+
 * {
   margin: 0;
   padding: 0;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+/* element styling */
 
 header {
   background-color: lightgrey;
@@ -10,7 +14,7 @@ header {
   border-bottom: 5px solid black;
 }
 
-nav {
+nav, footer {
   padding: 5px;
   text-align: right;
 }
@@ -18,4 +22,17 @@ nav {
 li {
   display: inline;
   padding: 0px 1em;
+}
+
+footer {
+  background-color: lightgrey;
+  border-top: 5px solid black;
+}
+
+
+/* class styling */
+
+.logo {
+  width: 40px;
+  padding-left: 10px;
 }
