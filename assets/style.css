@@ -24,6 +24,19 @@ li {
   padding: 0px 1em;
 }
 
+section p {
+  padding: 0.5em;
+  text-align: left;
+}
+
+section h2 {
+  display: inline;
+  margin-top: 50px;
+  border: 3px solid navy;
+  border-radius: 8px;
+  padding: 0px 5px;
+}
+
 footer {
   background-color: lightgrey;
   border-top: 5px solid black;
@@ -39,4 +52,8 @@ footer h2 {
 .logo {
   width: 35px;
   padding-left: 10px;
+}
+
+.about-me {
+  text-align: center;
 }
