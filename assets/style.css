@@ -1,0 +1,12 @@
+* {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+  background-color: lightgrey
+}
+
+li {
+  display: inline;
+  padding: 0px 1em;
+}
