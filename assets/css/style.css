@@ -28,16 +28,21 @@ h1 {
   text-align: center;
 }
 
-section p {
-  margin: 0.5em;
-  padding: 0.5em;
-  text-align: left;
-  background-color: lightblue;
-  border-radius: 5px;
+div.about-me h2 {
+  margin-left: 15px;
+  padding-right: 15px;
+  width: 120px;
+  text-align: center;
+  border-right: 2px solid black;
 }
 
-h2 {
-  margin-left: 15px;
+div.about-me p {
+  align-self: center;
+  order: 1;
+  padding: 0.5em;
+  text-align: left;
+  background-color: rgb(193, 229, 241);
+  border-radius: 5px;
 }
 
 footer {
@@ -51,8 +56,20 @@ footer h2 {
 
 /* class styling */
 
+.about-me {
+  display: flex;
+  margin: 0.5em;
+  gap: 10px;
+}
+
+.picture-of-me {
+  border-radius: 5px;
+  order: 2:
+}
+
 .logo {
   width: 35px;
   height: 35px;
   padding-left: 10px;
 }
+
