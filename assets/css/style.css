@@ -24,14 +24,20 @@ li {
   padding: 0px 1em;
 }
 
-section p {
-  padding: 0.5em;
-  text-align: left;
+h1 {
+  text-align: center;
 }
 
-section h2 {
-  display: inline;
-  padding: 0px 5px;
+section p {
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: left;
+  background-color: lightblue;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-left: 15px;
 }
 
 footer {
@@ -41,16 +47,12 @@ footer {
 
 footer h2 {
  display: inline;
- line-height: auto;
 }
 
 /* class styling */
 
 .logo {
   width: 35px;
+  height: 35px;
   padding-left: 10px;
-}
-
-.about-me {
-  text-align: center;
 }
