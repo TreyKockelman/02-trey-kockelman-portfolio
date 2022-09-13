@@ -31,9 +31,6 @@ section p {
 
 section h2 {
   display: inline;
-  margin-top: 50px;
-  border: 3px solid navy;
-  border-radius: 8px;
   padding: 0px 5px;
 }
 
