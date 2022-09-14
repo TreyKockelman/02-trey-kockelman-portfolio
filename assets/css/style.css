@@ -81,18 +81,14 @@ footer h2 {
   margin-bottom: 30px;
 }
 
-.second-figure {
-  width: 300px;
-  flex-wrap: wrap;
+.code-refactor-img {
+  display: flex;
+  width: 100%;
 }
 
-li.third-figure {
-  width: 300px;
-  flex-wrap: wrap;
-}
-
-.study-guide-img {
-  flex-shrink: 1;
+.study-guide-img, .portfolio-img {
+  display: flex;
+  width: 50%;
 }
 
 .logo {
