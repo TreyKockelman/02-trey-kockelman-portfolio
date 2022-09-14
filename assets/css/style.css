@@ -43,10 +43,6 @@ div.about-me h2, div.my-work h2 {
   border-right: 2px solid black;
 }
 
-div.my-work h2:hover {
-  outline: 2px solid red;
-}
-
 div.about-me p {
   align-self: center;
   order: 2;
@@ -80,6 +76,24 @@ footer h2 {
   height: 35px;
   padding-left: 10px;
 }
+
+.first-figure {
+  width: 85%;
+  height: 40em;
+  margin-bottom: 30px;
+}
+
+.code-refactor-img {
+  align-items: center;
+}
+
+.second-figure {
+  width: 100%;
+}
+
+/* interactive styling */
+
+
 
 /* mobile devices styling */
 
