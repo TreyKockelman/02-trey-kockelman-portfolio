@@ -35,7 +35,7 @@ div.about-me, div.my-work {
   margin-bottom: 2em
 }
 
-div.about-me h2, div.my-work h2 {
+div.about-me h2 {
   margin-left: 15px;
   padding-right: 15px;
   width: 120px;
@@ -56,6 +56,12 @@ div.about-me p {
 div.my-work {
   flex-wrap: wrap;
   flex-shrink: 1;
+  justify-content: center;
+}
+
+div.second-group {
+  flex-shrink: 1;
+  justify-content: center;
 }
 
 footer {
@@ -82,19 +88,45 @@ footer h2 {
 }
 
 .code-refactor-img {
-  display: flex;
   width: 100%;
 }
 
-.study-guide-img, .portfolio-img {
+.second-group {
   display: flex;
-  width: 50%;
+  width: 95%;
+  justify-content: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.study-guide-img, .portfolio-img {
+  width: 600px;
+  flex-shrink: 1;
+}
+
+.portfolio-img {
+  height: 100%;
 }
 
 .logo {
   width: 35px;
   height: 35px;
   padding-left: 10px;
+}
+
+/* ID Styling */
+
+#myworklink {
+  display: flex;
+}
+
+#myworklink h2 {
+  margin-left: 15px;
+  padding-right: 15px;
+  width: 120px;
+  text-align: center;
+  border-right: 2px solid black;
 }
 
 /* interactive styling */
