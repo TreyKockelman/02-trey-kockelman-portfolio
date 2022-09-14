@@ -53,6 +53,11 @@ div.about-me p {
   flex-shrink: 1;
 }
 
+div.my-work {
+  flex-wrap: wrap;
+  flex-shrink: 1;
+}
+
 footer {
   background-color: lightgrey;
   border-top: 5px solid black;
@@ -71,24 +76,29 @@ footer h2 {
   width: 33%
 }
 
+.first-figure {
+  width: 85%;
+  margin-bottom: 30px;
+}
+
+.second-figure {
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+li.third-figure {
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.study-guide-img {
+  flex-shrink: 1;
+}
+
 .logo {
   width: 35px;
   height: 35px;
   padding-left: 10px;
-}
-
-.first-figure {
-  width: 85%;
-  height: 40em;
-  margin-bottom: 30px;
-}
-
-.code-refactor-img {
-  align-items: center;
-}
-
-.second-figure {
-  width: 100%;
 }
 
 /* interactive styling */
@@ -98,10 +108,9 @@ footer h2 {
 /* mobile devices styling */
 
 @media screen and (max-width: 768px) {
-  nav {text-align: center}
+  nav {text-align: center;}
 
-  header {position: fixed; 
-    width: 100%;}
+  header {position: fixed; width: 100%;}
 
   h1 {font-size: 28px; 
     line-height: 125px;
@@ -109,10 +118,12 @@ footer h2 {
 
   div.about-me h2, div.my-work h2 {border: none;}
 
+  figcaption {text-align: center;}
+
   /*class elements of mobile devices styling */
 
   .about-me, .my-work {flex-direction: column;}
 
-  .picture-of-me {width: 100%;}
+  .first-figure, .second-figure, .third-figure, .picture-of-me, .code-refactor-img, .portfolio-img, .study-guide-img {width: 100%;}
 
 }
