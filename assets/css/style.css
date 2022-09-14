@@ -142,15 +142,15 @@ footer h2 {
 
   h1 {font-size: 28px; 
     line-height: 125px;
-    margin-bottom: -40px;} /* can be cleaned up later*/
+    margin-bottom: -30px;} /* can be cleaned up later*/
 
-  div.about-me h2, div.my-work h2 {border: none;}
+  div.about-me h2, #myworklink h2 {border: none; margin-bottom: 0.5em}
 
   figcaption {text-align: center;}
 
   /*class elements of mobile devices styling */
 
-  .about-me, .my-work {flex-direction: column;}
+  .about-me, #myworklink {flex-direction: column;}
 
   .first-figure, .second-figure, .third-figure, .picture-of-me, .code-refactor-img, .portfolio-img, .study-guide-img {width: 100%;}
 
